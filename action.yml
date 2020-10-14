@@ -1,0 +1,11 @@
+name: "Docsify Action"
+author: mattdavis0351
+description: "Quickly manage GitHub repositories with documents to be served with Docsify"
+inputs:
+  github-token:
+    description: "Token for API access, use GITHUB_TOKEN"
+    required: true
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
