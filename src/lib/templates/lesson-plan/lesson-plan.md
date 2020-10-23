@@ -150,9 +150,9 @@ Examine/introduce real-world examples to demonstrate benefits of the topic
 - <!-- topic 2 -->
 - <!-- topic 3 -->
 
-**Discussion Activity**:
+**Activity**:
 
-- Purpose: - <!-- What is the purpose of your activity -->
+- Purpose: <!-- What is the purpose of your activity -->
 - Activity overview:
   - <!-- Activity step 1 -->
   - <!-- Activity step 2 -->
@@ -182,9 +182,9 @@ In-person
 - <!-- topic 2 -->
 - <!-- topic 3 -->
 
-**Hands-on activity 1**:
+**Activity**:
 
-- Purpose: - <!-- What is the purpose of your activity -->
+- Purpose: <!-- What is the purpose of your activity -->
 - Activity overview:
   - <!-- Activity step 1 -->
   - <!-- Activity step 2 -->
@@ -208,6 +208,16 @@ This phase should include any activities, questions, or discussions to help refl
 - <!-- topic 1 -->
 - <!-- topic 2 -->
 - <!-- topic 3 -->
+
+**Activity**:
+
+- Purpose: <!-- What is the purpose of your activity -->
+- Activity overview:
+  - <!-- Activity step 1 -->
+  - <!-- Activity step 2 -->
+  - <!-- Activity step 3 -->
+  - Reflect on the pros and cons of the examples.
+
 <!-- tabs:end -->
 
 ## Assessments <!-- {docsify-ignore} -->
