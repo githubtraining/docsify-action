@@ -26,10 +26,10 @@ pageTitles:
 
 _This table will be update as more templates and use cases are created_
 
-| templateVersion | purpose                           |
-| --------------- | --------------------------------- |
-| lesson-plan              | Github certification lesson plans |
-| blank| Blank markdown files for free-form content that get automatically added to the Docsify sidebar|
+| templateVersion | purpose                           | Release Tag Availability|
+| --------------- | --------------------------------- |---|
+| lesson-plan              | Github certification lesson plans | v1.0|
+| blank| Blank markdown files for free-form content that get automatically added to the Docsify sidebar|v1.1|
 
 2. docsify-repo.yml workflow file
 
