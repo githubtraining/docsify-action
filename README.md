@@ -28,7 +28,8 @@ _This table will be update as more templates and use cases are created_
 
 | templateVersion | purpose                           |
 | --------------- | --------------------------------- |
-| v1              | Github certification lesson plans |
+| lesson-plan              | Github certification lesson plans |
+| blank| Blank markdown files for free-form content that get automatically added to the Docsify sidebar|
 
 2. docsify-repo.yml workflow file
 
