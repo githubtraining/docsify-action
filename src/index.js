@@ -95,9 +95,9 @@ async function run() {
       const cssRes = await octokit.repos.createOrUpdateFileContents({
         owner: ctx.repo.owner,
         repo: ctx.repo.repo,
-        path: "docs/lesson-planner.css",
+        path: "docs/styles.css",
         message: "initial template setup",
-        content: Buffer.from(fileContentsToWrite["lesson-plannercss"]).toString(
+        content: Buffer.from(fileContentsToWrite["stylescss"]).toString(
           "base64"
         ),
         branch: ctx.ref,
@@ -176,9 +176,9 @@ async function run() {
           repo: ctx.repo.repo,
           path: `docs/${filenameSlug}.md`,
           message: "initial template setup",
-          content: Buffer.from(fileContentsToWrite["lesson-planmd"]).toString(
-            "base64"
-          ),
+          content: Buffer.from(
+            fileContentsToWrite["template-documentmd"]
+          ).toString("base64"),
           branch: ctx.ref,
         });
       } else {
