@@ -177,7 +177,7 @@ async function run() {
           path: `docs/${filenameSlug}.md`,
           message: "initial template setup",
           content: Buffer.from(
-            fileContentsToWrite["template-document"]
+            fileContentsToWrite["template-documentmd"]
           ).toString("base64"),
           branch: ctx.ref,
         });
