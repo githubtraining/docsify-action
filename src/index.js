@@ -95,7 +95,7 @@ async function run() {
       const cssRes = await octokit.repos.createOrUpdateFileContents({
         owner: ctx.repo.owner,
         repo: ctx.repo.repo,
-        path: "docs/lesson-planner.css",
+        path: "docs/styles.css",
         message: "initial template setup",
         content: Buffer.from(fileContentsToWrite["stylescss"]).toString(
           "base64"
