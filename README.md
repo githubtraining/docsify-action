@@ -52,7 +52,7 @@ jobs:
       - name: checkout the repo
         uses: actions/checkout@v2
       - name: use lesson planner
-        uses: githubtraining/docsify-action@v1
+        uses: githubtraining/docsify-action@v1.0
         with:
           github-token:  ${{secrets.GITHUB_TOKEN}}
 ```
